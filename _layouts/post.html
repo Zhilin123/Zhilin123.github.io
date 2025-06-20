@@ -19,6 +19,7 @@ layout: default
     {{ content }}
   </article>
 
+
   {% if site.disqus_shortname and page.comments %}
     <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -34,4 +35,39 @@ layout: default
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   {% endif %}
 
+  <br>
+  <hr>
+  <br>
+
+  If you found this useful, please cite this as:
+
+  {% capture citation_quote -%}
+  > {{ site.last_name }}, {{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} ({{ page.date | date: "%b %Y" }}). {{ page.title }}. {% if site.title != 'blank' %}{{ site.title }}. {% endif %}{{ site.url }}.
+  {%- endcapture %}
+  {{ citation_quote | markdownify }}
+
+  <p>or as a BibTeX entry:</p>
+
+  {% capture citation_code -%}
+  ```bibtex
+  @article{ {{- site.last_name | downcase }}{{ page.date | date: "%Y" }}{{ page.title | slugify }},
+    title   = { {{- page.title -}} },
+    author  = { {{- site.last_name }}, {{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif -%}},
+    {%- if site.title != 'blank' %}journal = { {{- site.title -}} },{% endif %}
+    year    = { {{- page.date | date: "%Y" -}} },
+    month   = { {{- page.date | date: "%b" -}} },
+    url     = { {{- site.url }}{{ page.url -}} }
+  }
+  ```
+  {%- endcapture %}
+  {{ citation_code | markdownify }}
+
+
+  {% if page.related_publications %}
+    <h2>References</h2>
+    <div class="publications">
+      {% bibliography --group_by none --cited_in_order %}
+    </div>
+  {% endif %}
+  
 </div>

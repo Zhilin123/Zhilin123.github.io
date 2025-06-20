@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-description: NLP at UW/Alexa/Cambridge
+description: Senior Applied Scientist at NVIDIA LLM Alignment
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic_new.jpg
   address: Email at wangzhilin123 [at] gmail [dot] com
 
 
@@ -15,11 +15,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there! I'm Zhilin and I work on Natural Language Processing for Conversational AI, Psychology and Education! I work with a range of methods involving generation, ranking and integrating structured data (i.e. knowledge graphs).
+Hi there! I'm Zhilin and I work on Aligning LLMs to be more helpful for humans! My recent work focuses on leading the HelpSteer dataset series (1, 2 and 3), which are popular open-source post-training datasets for helpfulness modelling. Then, I explore creative ways to model such data, giving rise to the Llama-3.1-Nemotron-70B-Instruct and Reward models, as well as the Llama-3.3-Nemotron-70B model family.
 
-[Find out more about my work here](/more)!  
+I also do some hobby projects in my personal capability outside of work - such as Humanoid Agents (Platform for simulation for human-like agents).
 
-[My CV can be found here](https://github.com/Zhilin123/Publications/blob/master/Zhilin_Wang_CV.pdf){:target="\_blank"}
+
 
 [comment]: Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
