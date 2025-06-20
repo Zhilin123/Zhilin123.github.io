@@ -1,0 +1,3001 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>
+
+  Zhilin  Wang
+
+
+  | Reward Model Evaluation in June 2025
+
+</title>
+<meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="canonical" href="/blog/2025/reward/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/dark_mode.js"></script>
+
+
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="/">
+       <span class="font-weight-bold">Zhilin</span>   Wang
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/blog/">
+                blog
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/journey">
+                my journey
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+            <div class = "toggle-container">
+              <a id = "light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+              </a>
+            </div>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Reward Model Evaluation in June 2025</h1>
+    <p class="post-meta">June 19, 2025</p>
+  </header>
+
+  <article class="post-content">
+    <p><img class="img-fluid rounded z-depth-1" src="/assets/img/carrot_and_donkey.png" />
+Generated by GPT-4o to represent the role of reward models (carrot) in training RLHF policies (donkey).</p>
+
+<h2 id="why-should-we-care-about-reward-model-evaluations">Why should we care about Reward Model Evaluations?</h2>
+
+<p>Reward Models are critical components for Reinforcement Learning from Human Feedback pipelines - essentially acting as “referees” to inform policy models how to distinguish a preferred vs a less preferred response. While verifiers can somewhat replace this role, it is important to note that Reward Models are generally much more compute-efficient and generalizable beyond the domains of mathematics and coding problems (with known right answers). In fact, the early works of RLHF <a class="citation" href="#ouyang2022traininglanguagemodelsfollow">(Ouyang et al., 2022; Bai et al., 2022)</a>. was precisely designed to capture this elusive side of human preference (in aspects such as presentation style) against the background that most NLP evaluations (e.g. Question Answering, Natural Language Inference, Dialogue State Tracking) were primarily optimizing for “correctness”.</p>
+
+<p>A recent work <a class="citation" href="#huang2025pitfallsrulemodelbasedverifiers">(Huang et al., 2025)</a> also finds that Reward Models can neatly complement verifiers in certain context (e.g. Math) because verifiers tend to easily miss correct answers (e.g. high precision, low recall) as they cannot recognize equivalence answers (e.g. 3 hours vs. 180 minutes). On the other hand, Reward models can err by misclassifying incorrect answers as correct (a.k.a reward hacking) in low precision, high recall setting.</p>
+
+<p>This means that Reward Models are likely here to stay as part of Reinforcement Learning pipelines - as indicated in recent technical reports such as Gemini 2.5, Qwen 3 and DeepSeek V3.</p>
+
+<h2 id="what-do-we-refer-to-as-reward-models">What do we refer to as “Reward Models”?</h2>
+
+<h3 id="conventional-reward-models-response--score">Conventional Reward Models (response –&gt; score)</h3>
+
+<p>Bradley-Terry Reward Models were the OG Reward Models <a class="citation" href="#ouyang2022traininglanguagemodelsfollow">(Ouyang et al., 2022; Bai et al., 2022)</a>.They are trained by maximizing the gap in rewards between a chosen and rejected responses. During inference, they generate a scalar score, representing the quality of the response - higher score indicates better.</p>
+
+<p>While trained differently, Regression Reward Models <a class="citation" href="#wang2024helpsteer">(Wang et al., 2024; Wang et al., 2024)</a> can be used in the same way as Bradley-Terry Reward Models. These models are typically trained to predict the quality of one response indepedently, typically on a Likert-5 or Likert-10 scale.</p>
+
+<p>Pro: Fast inference (only class of RMs fast enough to be commonly use in RL pipeline)</p>
+
+<p>Con: Scores not interpretable; can sometimes be hacked.</p>
+
+<h3 id="prompted-llms-response--critique--score">Prompted LLMs (response –&gt; critique –&gt; score)</h3>
+
+<p>Strong LLMs such as GPT-4 have history of being somewhat accurate and reliable judges to grade the quality of responses (starting with Vicuna/MT/Alpaca Bench in early 2023). In many Reward Modelling leaderboards, they serve as baseline models/references to understand how well conventional Reward Models behave. Subsequently, works such as UltraFeedback used LLMs in similar ways to construct preference datasets.</p>
+
+<p>Pro: No training needed.</p>
+
+<p>Con: Very slow inference, can be expensive to call external API.</p>
+
+<h3 id="generative-reward-models-response--critique--score">Generative Reward Models (response –&gt; critique –&gt; score)</h3>
+
+<p>Generative Reward Models are the most recent class of reward models and can be used similar to Prompted LLMs during Inference. However, they are specifically trained to generate better critiques and more accurate scores, similar to Conventional Reward Models. While they are many ways to train them, an approach that recently caught attention (DeepSeek GRM) was to train a model to generate a critique, before using ground truth score/preference data (and the difference from the predicted score/preference) to calculate a loss for the model to learn.</p>
+
+<p>Pro: Scores are most robust as they combine benefit of Conventional RMs and Prompted LLMs.</p>
+
+<p>Con: Very slow inference (might be challenging to use in Reinforcement Learning pipelines).</p>
+
+<h2 id="select-reward-model-evaluations">Select Reward Model Evaluations</h2>
+
+<p>Note: given the number of papers related to reward models these days, it’s virtually impossible to cover all evaluations - therefore, I cover some of the ones that I looked into.</p>
+
+<h3 id="rewardbench">RewardBench</h3>
+
+<p>RewardBench measures a macro-average of models’ accuracy in assigning higher scores to chosen responses over rejected responses across 4 categories including Chat, Chat-Hard, Safety and Reasoning (Math and Code). In many ways, RewardBench was a turning point for Reward Model evaluation. Prior to RewardBench, there were existing evaluation data but these were typically validation subsets to popular training datasets such as Anthropic HH-RLHF, OpenAI Summarize and Stanford Human Preference. This means the best way to score well on these dataset was to overfit on the accompanying training datasets, instead of training a better generalized Reward Model. On the other hand, there was no obvious ways to game RewardBench as it comprises 20+ distinct tasks.</p>
+
+<p>The other aspect of RewardBench was its transparent and reproducible design. Its maintainer Nathan did an amazing job creating and maintaining a leaderboard that later contains more than 100 models, alongside full documentation of the corresponding dataset and evaluation code. This made RewardBench a public leaderboard for people to “compete” on - similar to ChatBot Arena, (Super)GLUE and ImageNet. And where there is competition, there often is rapid progress (with the best performing model rapidly improving from 86% at launch in March 2024 to over 95% by December 2024).</p>
+
+<p>However, with the rapid progress and transparency, limitations in RewardBench began to show:</p>
+
+<ol>
+  <li>
+    <p>RewardBench consists of 20+ different tasks from existing datasets. This means that it inherits the limitations of some of these datasets. For instance, ReWordBench shows that for Math prompts, the chosen and rejected prompts have different formating (i.e. \boxed{xxx} vs #### Answer: xxx). This made it possible for models to “guess” the answer from the formatting differences instead of having to compare the answers.</p>
+  </li>
+  <li>
+    <p>Relatedly, on many subsets within the Chat-Hard category, the ground-truth preference was chosen based on GPT-4 labels. While this was not a big issue when the Chat-Hard accuracy was around 50% and models were generally much weaker than GPT-4, it became a problem later in 2024 as models trained on GPT-4-labelled data shows an imbalanced performance on GPT-4-labelled subsets vs Human-labelled subsets within Chat-Hard. This suggests that certain stylistic elements associated with GPT-4 generations could give away the preference choice.</p>
+  </li>
+  <li>
+    <p>The performance of RewardBench begins to saturate as performance of the top performing models goes beyond 95%. For reasons discussed above, the actual ceiling for performance is not going to be 100% given annotation errors (akin to errors that exist with every benchmark including ImageNet/GLUE). This means that it’s no longer straightforward to tell if models that score better on RewardBench are truly ‘better’ for Out-Of-Distribution performance or merely got lucky on a couple of samples. Personally, I think 95% is probably at or around the ground truth annotation correctness level and hence, further optimizing Reward Models on RewardBench is likely to be counterproductive.</p>
+  </li>
+</ol>
+
+<p>Nonetheless, RewardBench leaves behind a strong legacy for other Reward Model evaluations to live up to and indeed was directly built upon by several follow up works in terms of its codebase or data.</p>
+
+<p>Paper: https://openreview.net/forum?id=XiConLcsqq#discussion (NAACL 2025 Findings) <a class="citation" href="#lambert2024rewardbenchevaluatingrewardmodels">(Lambert et al., 2024)</a></p>
+
+<p>Domains: Chat, Safety, Math and Code</p>
+
+<p>Size: 3k pairs of responses (Good-sized)</p>
+
+<p>Pro: First Out-of-Distribution, Diverse Evaluation set, Well-maintained public leaderboard</p>
+
+<p>Con: Questionable Quality, English only, Saturated Performance</p>
+
+<h3 id="rm-bench">RM-Bench</h3>
+
+<p>RM-Bench maintains similar categories as RewardBench - Chat, Safety, Math and Code - but address many of its issues. Specifically, it addresses the style bias in the Chat category by mandating that both chosen and rejected responses come from with the same model, with the rejected response produced by making targeted corruptions into the chosen responses containing as few as 1 word of difference. The cherry on top is that samples were manually checked prior to inclusion into the dataset.</p>
+
+<p>Furthermore, it also controls for style by making three different versions of responses with similar content - concise, verbose and verbose with markdown formatting. By doing this, it makes the benchmark much harder by pitting well-formatted and/or verbose <strong>incorrect</strong> responses against concise <strong>correct</strong> responses. This means that the overall top performing model in the paper is only at 70% while being much weaker on the Hard subset (55%) - which is low considering that random guess gives 50% accuracy.</p>
+
+<p>Paper: https://openreview.net/forum?id=QEHrmQPBdd (ICLR 2025 Oral) <a class="citation" href="#liu2025rmbench">(Liu et al., 2025)</a></p>
+
+<p>Domains: Chat, Safety, Math and Code</p>
+
+<p>Size: 1.33k * 3 pairs of responses ~ 4k pairs (Good-sized)</p>
+
+<p>Pro: High Quality, Designed to Mitigate Stylistic Bias</p>
+
+<p>Con: English only</p>
+
+<h3 id="judgebench">JudgeBench</h3>
+
+<p>JudgeBench is a task designed to evaluate models on LLM-as-a-Judge settings and has slightly different categories compared with RM-Bench - General (Undergraduate-level) Knowledge, Logical Reasoning, Math and Code. Specifically, it curates prompts from established benchmarks (MMLU-pro, LiveBench and LiveCodeBench) before asking a single strong model (GPT-4o or Claude 3.5 Sonnet) to generate multiple sampled responses. This indirectly controls for stylistic differences since only one generator model is used. Only questions that are sometimes answered correctly (by comparing against the ground truth answer) and other times answered wrongly are kept.</p>
+
+<p>Because such strong models are used, many conventional reward models do poorly on it with the highest achieving only 64% accuracy on it. The strongest performing models on this benchmark are strong reasoning LLM (e.g. o3-mini-high) that are prompted to first generate its own answer to the question, before choosing one out of the two answers. This is not surprising because the benchmark consists of many hard but verifiable STEM problems which reasoning models are optimized for. Generating its own response which are often correct can serve as a “silver-standard” to grade candidate answers against.</p>
+
+<p>An unfortunate drawback of this benchmark is that it only consists of 350 samples, which is small and makes the evaluation imprecise.</p>
+
+<p>Paper: https://openreview.net/forum?id=G0dksFayVq (ICLR 2025) <a class="citation" href="#tan2025judgebench">(Tan et al., 2025)</a></p>
+
+<p>Domains: Knowledge, Logical Reasoning, Math and Code</p>
+
+<p>Size: 350 pairs of responses (Small)</p>
+
+<p>Pro: High Quality, Very Challenging</p>
+
+<p>Con: Small, English-Only, Value preposition overlaps with Verfiers which can be used directly for RL pipelines.</p>
+
+<h3 id="m-rewardbench">M-RewardBench</h3>
+
+<p>M-RewardBench proposes the translation of RewardBench into 20+ languages and evaluates its performance on each language separately. In addition, it includes a new translation subset that evaluates Reward Models’ capability to evaluate translation quality.</p>
+
+<p>While this dataset addresses one of the main drawbacks of RewardBench (no multiliinguality), its strong dependence on RewardBench unfortunately means that it directly inherits all of its drawbacks (discussed under RewardBench section above). This is unfortunate because the community can really benefit from a high quality multilingual evaluation, but this is not it.</p>
+
+<p>Paper: https://arxiv.org/abs/2410.15522 (ACL 2025)  <a class="citation" href="#gureja2025mrewardbenchevaluatingrewardmodels">(Gureja et al., 2025)</a></p>
+
+<p>Domains: Chat, Safety, Math, Code and Translation</p>
+
+<p>Size: 24 languages * 3k pairs of responses ~ 72k pairs (Too large)</p>
+
+<p>Pro: Multilingual</p>
+
+<p>Con: Questionable Quality</p>
+
+<h3 id="rmb">RMB</h3>
+
+<p>RMB proposes focussing on two categories (Helpfulness and Harmlessness), which broadly fits into Chat and Safety from earlier benchmarks. While its prompt selection and response generation are done well, the primary limitation of RMB lies in the preference label process. Specifically, it only use GPT-4 generated label as the ground truth, leading to substantially stylistic bias for models trained on GPT-4 generated data such as Ultrafeedback. As an illustration, the top performing model is GPT-4o while the best conventional RM is Starling-34B which was trained on Nectar, another GPT-4 labelled dataset.</p>
+
+<p>As a note, a key selling point of this dataset was how well it correlates with downstream RLHF model evaluation (such as Arena Hard). However, its worth noting that these downstream application were also using a GPT-4 judge, which means they also capture biases such as self-preferring bias.</p>
+
+<p>Paper: https://openreview.net/forum?id=dw8uv3Rliz (ICLR 2025) <a class="citation" href="#zhou2025rmb">(Zhou et al., 2025)</a></p>
+
+<p>Domains: Chat and Safety</p>
+
+<p>Size: 3k sets (pairs, triples or greater) of responses (good-sized)</p>
+
+<p>Pro: Well-thought out prompt curation</p>
+
+<p>Con: High Bias toward GPT-4 family or Models trained with GPT-4 data</p>
+
+<h3 id="ppe">PPE</h3>
+
+<p>PPE contains tasks mined from many different tasks including MMLU-Pro, MATH, GPQA, MBPP+ and IFEval. They then generate up to 512 responses per prompt using four small-sized models (Claude 3.5 Haiku, Llama 3 8B, GPT-4o-mini and Gemma 2 9B) and removed prompts that were either too easy or too hard (less than 10% or more than 90% accuracy).</p>
+
+<p>The purpose of such a curation approach is to essentially train reward models that can differentiate correct vs incorrect answers for these benchmarks and therefore optimize the downstream performance of RLHF models on them. This brings into question whether Reward models selected based on these criteria are actually useful, since these tasks are verfiable on their own in RLHF pipelines.</p>
+
+<p>The best model (Athene-RM-70B) only reaches 69% accuracy. Note that Athene-RM-70B was trained by the same group of researchers (associated with Chatbot Arena) and hence it’s not clear whether Athene-RM-70B was trained on the same distribution as this evaluation dataset. This also brings into attention that it might not be hard to overfit on PPE by training on verified rollouts on these consistuent datasets.</p>
+
+<p>Paper: https://openreview.net/forum?id=cbttLtO94Q (ICLR 2025) <a class="citation" href="#frick2025how">(Frick et al., 2025)</a></p>
+
+<p>Domains: General Knowledge, Math, Scientific MCQ, Code and Precise Instruction Following</p>
+
+<p>Size: 18k sets (pairs, triples or greater) of responses (leaning large)</p>
+
+<p>Pro: Thoughtfully constructed, diverse range of domains covered, Challenging</p>
+
+<p>Cons: English-Only, Might be easy to overfit to, Value preposition overlaps with Verfiers which can be used</p>
+
+<h3 id="rewardbench-2">RewardBench 2</h3>
+
+<p>Our final evaluation dataset is RewardBench 2, produced by the team behind the original RewardBench. This version uses distinct prompts and categories - Factuality, Precise Instruction Following, Math, Safety, Focus and Ties. Across all categories other than Ties, models need to score a chosen response higher than three rejected responses - making the random choice success rate of 25% compared to 50% in RewardBench. Some categories are well-curated using a mixture of Human-AI collaborative techniques in Math category while other categories (e.g. Factuality, Focus and Safety) solely depend on LLM to derive ground-truth labels. The remaining categories have naturally verifiable solutions (Precise Instruction Following and Ties).</p>
+
+<p>Performance on RewardBench2 is positively and linearly correlated with RewardBench with great fit, but on average around 20% lower. This solves the saturation problem right? However, if we look closer at the leaderboard, a substantial chunk of the lower performance can be attributed to the Precise IF category (an example being “Answer without the letter u”) which commonly has models scoring 40% when the average is at &gt;75%. This suggests that this partition is very challenging - and in my opinion, unnecessarily challenging as such strict constraints rarely are useful in the real-world.</p>
+
+<p>In other categories such as Factuality where ground-truth labels are derived from LLMs, they also potentially lead to self-preferring bias like those from the original RewardBench. For instance, looking at <a href="https://huggingface.co/datasets/allenai/reward-bench-2/viewer/default/test?row=8&amp;views%5B%5D=test">one datapoint</a>, the chosen response in fact doesn’t fulfill some of the criteria (i.e. doesn’t contain the word married) even when the rejected responses do. This suggests that using LLM alone to determine ground-truth answers can be inaccurate and misleading.</p>
+
+<p>Finally, the Ties category is an innovative category that measures whether models score equally-correct answers (e.g. Name a color of the rainbow) highly compared to incorrect answers (e.g. pink). While the idea is interesting, I find the implementation rather cumbersome as it is the only category that doesn’t have a set of 1 correct vs. 3 incorrect answers alongside a hard-to-understand <a href="https://github.com/allenai/reward-bench/blob/main/rewardbench/utils.py#L1083">scoring schema</a>. This schema makes certain assumptions e.g. a good reward model should score equally correct answers within a smaller range compared to the margin between the top incorrect answer and the bottom correct answer. I get why this would make sense intuitively but having trained reward models of different types, it’s not clear why this assumption would hold for reward models trained in certain manners (e.g. pairwise Bradley-Terry).</p>
+
+<p>I was also super surprised to see Gemini 2.5 Flash scoring much higher than Gemini 2.5 Pro (rank 1 vs 23 - yes first vs twenty-third). Looking more closely at the Math category, the difference is astounding at 81.1 for the Flash and 53.4 for the Pro. Not sure about you but this very much raises my eyebrows as it’s just difficult to believe that the Flash model is so much better as a math judge compared to the Pro.</p>
+
+<p>In case it wasn’t clear in my writing, I really wanted to like RewardBench2 (having hoped it to come out for the past half a year or so) but I don’t think it’s polished enough for now.</p>
+
+<p>Paper: https://arxiv.org/pdf/2506.01937 <a class="citation" href="#malik2025rewardbench2advancingreward">(Malik et al., 2025)</a></p>
+
+<p>Domains: Chat, Precise Instruction Following, Math, Safety and (Elementary) Knowledge</p>
+
+<p>Size: 1.8k sets - typically of 4 responses but Ties categories can have more than 30 responses (good-sized).</p>
+
+<p>Pro: Innovative</p>
+
+<p>Cons: Questionable quality, English only</p>
+
+<h2 id="which-evaluation-should-i-use">Which Evaluation should I use?</h2>
+
+<p>To pick the best evaluation, I would recommend considering these criteria:</p>
+
+<ol>
+  <li>
+    <p>Does it measure the capabilities you care about? Say you want to only measure how well reward models can be used to improve coding behavior - then use those that include the coding domain.</p>
+  </li>
+  <li>
+    <p>Does it have downsides you can live with? No evaluation is perfect so you got to do tradeoffs. Maybe a benchmark is English only but your Reward Model application only cares about performance in English. In this case, it’s not too big of a deal.</p>
+  </li>
+  <li>
+    <p>Is it popular? This matters more if you’re writing an academic paper. By using an evaluation that everyone else is using, there’s a higher chance that reviewers would know of the benchmark and not ask for it if it’s not there. This also facilitates comparison with other works. The number of citations for a paper (discounted by the amount of time it was released publicly) can be an initial proxy.</p>
+  </li>
+</ol>
+
+<p>Nonetheless, if you’re looking for a TLDR recommendation for “general” Reward Modeling, my best recommendation currently (June 2025) is RM-Bench.</p>
+
+<p>Have fun evaluating Reward Models! If you have thoughts or questions, feel free to reach me via email or linkedin.</p>
+
+  </article>
+
+
+  
+
+  <br>
+  <hr>
+  <br>
+
+  If you found this useful, please cite this as:
+
+  
+  <blockquote>
+  <p>Wang, Zhilin (Jun 2025). Reward Model Evaluation in June 2025.  https://zhilin123.github.io.</p>
+</blockquote>
+
+
+  <p>or as a BibTeX entry:</p>
+
+  
+  <div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nc">@article</span><span class="p">{</span><span class="nl">wang2025reward-model-evaluation-in-june-2025</span><span class="p">,</span>
+    <span class="na">title</span>   <span class="p">=</span> <span class="s">{Reward Model Evaluation in June 2025}</span><span class="p">,</span>
+    <span class="na">author</span>  <span class="p">=</span> <span class="s">{Wang, Zhilin}</span><span class="p">,</span>
+    <span class="na">year</span>    <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+    <span class="na">month</span>   <span class="p">=</span> <span class="s">{Jun}</span><span class="p">,</span>
+    <span class="na">url</span>     <span class="p">=</span> <span class="s">{https://zhilin123.github.io/blog/2025/reward/}</span>
+  <span class="p">}</span>
+</code></pre></div></div>
+
+
+
+  
+    <h2>References</h2>
+    <div class="publications">
+      <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="ouyang2022traininglanguagemodelsfollow" class="col-sm-8">
+    
+      <div class="title">Training language models to follow instructions with human feedback</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Ouyang, Long,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Wu, Jeff,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Jiang, Xu,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Almeida, Diogo,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Wainwright, Carroll L.,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Mishkin, Pamela,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhang, Chong,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Agarwal, Sandhini,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Slama, Katarina,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Ray, Alex,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Schulman, John,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Hilton, Jacob,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Kelton, Fraser,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Miller, Luke,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Simens, Maddie,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Askell, Amanda,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Welinder, Peter,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Christiano, Paul,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Leike, Jan,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Lowe, Ryan
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+      
+        2022
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="bai2022traininghelpfulharmlessassistant" class="col-sm-8">
+    
+      <div class="title">Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Bai, Yuntao,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Jones, Andy,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Ndousse, Kamal,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Askell, Amanda,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Chen, Anna,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  DasSarma, Nova,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Drain, Dawn,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Fort, Stanislav,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Ganguli, Deep,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Henighan, Tom,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Joseph, Nicholas,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Kadavath, Saurav,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Kernion, Jackson,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Conerly, Tom,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  El-Showk, Sheer,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Elhage, Nelson,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Hatfield-Dodds, Zac,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Hernandez, Danny,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Hume, Tristan,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Johnston, Scott,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Kravec, Shauna,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Lovitt, Liane,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Nanda, Neel,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Olsson, Catherine,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Amodei, Dario,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Brown, Tom,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Clark, Jack,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  McCandlish, Sam,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Olah, Chris,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Mann, Ben,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Kaplan, Jared
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+      
+        2022
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="huang2025pitfallsrulemodelbasedverifiers" class="col-sm-8">
+    
+      <div class="title">Pitfalls of Rule- and Model-based Verifiers – A Case Study on Mathematical Reasoning</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Huang, Yuzhen,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zeng, Weihao,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zeng, Xingshan,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhu, Qi,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and He, Junxian
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+      
+        2025
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="wang2024helpsteer" class="col-sm-8">
+    
+      <div class="title">HelpSteer 2: Open-source dataset for training top-performing reward models</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                <em>Wang, Zhilin</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Dong, Yi,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Delalleau, Olivier,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zeng, Jiaqi,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Shen, Gerald,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Egert, Daniel,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhang, Jimmy J.,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Sreedhar, Makesh Narsimhan,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Kuchaiev, Oleksii
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track</em>
+      
+      
+        2024
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="wang-etal-2024-interpretable" class="col-sm-8">
+    
+      <div class="title">Interpretable Preferences via Multi-Objective Reward Modeling and Mixture-of-Experts</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Wang, Haoxiang,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Xiong, Wei,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Xie, Tengyang,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhao, Han,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Zhang, Tong
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In Findings of the Association for Computational Linguistics: EMNLP 2024</em>
+      
+      
+        2024
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="lambert2024rewardbenchevaluatingrewardmodels" class="col-sm-8">
+    
+      <div class="title">RewardBench: Evaluating Reward Models for Language Modeling</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Lambert, Nathan,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Pyatkin, Valentina,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Morrison, Jacob,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Miranda, LJ,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Lin, Bill Yuchen,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Chandu, Khyathi,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Dziri, Nouha,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Kumar, Sachin,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zick, Tom,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Choi, Yejin,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Smith, Noah A.,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Hajishirzi, Hannaneh
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+      
+        2024
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="liu2025rmbench" class="col-sm-8">
+    
+      <div class="title">RM-Bench: Benchmarking Reward Models of Language Models with Subtlety and Style</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Liu, Yantao,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Yao, Zijun,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Min, Rui,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Cao, Yixin,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Hou, Lei,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Li, Juanzi
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In The Thirteenth International Conference on Learning Representations</em>
+      
+      
+        2025
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="tan2025judgebench" class="col-sm-8">
+    
+      <div class="title">JudgeBench: A Benchmark for Evaluating LLM-Based Judges</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Tan, Sijun,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhuang, Siyuan,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Montgomery, Kyle,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Tang, William Yuan,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Cuadron, Alejandro,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Wang, Chenguang,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Popa, Raluca,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Stoica, Ion
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In The Thirteenth International Conference on Learning Representations</em>
+      
+      
+        2025
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="gureja2025mrewardbenchevaluatingrewardmodels" class="col-sm-8">
+    
+      <div class="title">M-RewardBench: Evaluating Reward Models in Multilingual Settings</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Gureja, Srishti,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Miranda, Lester James V.,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Islam, Shayekh Bin,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Maheshwary, Rishabh,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Sharma, Drishti,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Winata, Gusti,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Lambert, Nathan,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Ruder, Sebastian,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Hooker, Sara,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Fadaee, Marzieh
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+      
+        2025
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="zhou2025rmb" class="col-sm-8">
+    
+      <div class="title">RMB: Comprehensively benchmarking reward models in LLM alignment</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhou, Enyu,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zheng, Guodong,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Wang, Binghai,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Xi, Zhiheng,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Dou, Shihan,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Bao, Rong,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Shen, Wei,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Xiong, Limao,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Fan, Jessica,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Mou, Yurong,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zheng, Rui,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Gui, Tao,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhang, Qi,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Huang, Xuanjing
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In The Thirteenth International Conference on Learning Representations</em>
+      
+      
+        2025
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="frick2025how" class="col-sm-8">
+    
+      <div class="title">How to Evaluate Reward Models for RLHF</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Frick, Evan,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Li, Tianle,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Chen, Connor,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Chiang, Wei-Lin,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Angelopoulos, Anastasios Nikolas,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Jiao, Jiantao,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhu, Banghua,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Gonzalez, Joseph E.,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Stoica, Ion
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In The Thirteenth International Conference on Learning Representations</em>
+      
+      
+        2025
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="malik2025rewardbench2advancingreward" class="col-sm-8">
+    
+      <div class="title">RewardBench 2: Advancing Reward Model Evaluation</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Malik, Saumya,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Pyatkin, Valentina,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Land, Sander,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Morrison, Jacob,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Smith, Noah A.,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Hajishirzi, Hannaneh,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Lambert, Nathan
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+      
+        2025
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li></ol>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Medium Zoom JS -->
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+<script src="/assets/js/zoom.js"></script>
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+</html>

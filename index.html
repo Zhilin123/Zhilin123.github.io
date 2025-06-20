@@ -11,8 +11,6 @@
   Zhilin  Wang
 
 
-  | blog
-
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
@@ -37,7 +35,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -79,9 +77,27 @@
     <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
     <div class="container">
       
-      <a class="navbar-brand title font-weight-lighter" href="/">
-       <span class="font-weight-bold">Zhilin</span>   Wang
-      </a>
+        <!-- Social Icons -->
+        <div class="navbar-brand social">
+          <a href="mailto:%77%61%6E%67%7A%68%69%6C%69%6E%31%32%33@%67%6D%61%69%6C.%63%6F%6D"><i class="fas fa-envelope"></i></a>
+
+<a href="https://scholar.google.com/citations?user=OmMgSQsAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+
+
+<a href="https://github.com/Zhilin123" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+<a href="https://www.linkedin.com/in/zhilin-wang" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
       
       <!-- Navbar Toggle -->
       <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -93,9 +109,11 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/">
               about
+              
+                <span class="sr-only">(current)</span>
               
             </a>
           </li>
@@ -115,11 +133,9 @@
           
           
           
-          <li class="nav-item active">
+          <li class="nav-item ">
               <a class="nav-link" href="/blog/">
                 blog
-                
-                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -164,72 +180,192 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>Zhilin's blog</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">
+     <span class="font-weight-bold">Zhilin</span>  Wang
+    </h1>
+     <p class="desc">Senior Applied Scientist at NVIDIA LLM Alignment</p>
+  </header>
 
-
-  <ul class="post-list">
+  <article>
     
-      <li>
-        <!-- Added --><div class="row">
-        
-        <div class="col-sm-9">
-          <div class="card-body">
-            <h3>
-              
-                <a class="post-title" href="/blog/2025/reward/">Reward Model Evaluation in June 2025</a>
-              
-            </h3>
-            
-            <p>How to figure out if your Reward Model is actually good</p>
-            <p class="post-meta"> 15 min read &nbsp; &middot; &nbsp;
-              June 19, 2025
-            </p>
-            <!--
-
-            
-            <p class="post-tags">
-              <a href="/blog/">
-                <i class="fas fa-calendar fa-sm"></i>  </a>
-
-                
-                &nbsp; &middot; &nbsp;
-                  
-                
-
-                
-                &nbsp; &middot; &nbsp;
-                  
-                
-            </p>
-            -->
-          </div>
+    <div class="profile float-right">
+      
+        <img class="img-fluid z-depth-1 rounded" src="/assets/img/prof_pic_new.jpg">
+      
+      
+        <div class="address">
+          Email at wangzhilin123 [at] gmail [dot] com
         </div>
-        <div class="col-sm-3">
-          <div class="card-body">
-            <img class="card-img" src="/assets/img/carrot_and_donkey.png" style="object-fit: cover; height: 100%" alt="image">
-          </div>
-            
-        </div>
-      </div>
-    <!-- Add finish -->
-      </li>
+      
+    </div>
     
-  </ul>
 
+    <div class="clearfix">
+      <p>Hi there! I’m Zhilin and I work on Aligning LLMs to be more helpful for humans! My recent work focuses on leading the HelpSteer dataset series (1, 2 and 3), which are popular open-source post-training datasets for helpfulness modelling. Then, I explore creative ways to model such data, giving rise to the Llama-3.1-Nemotron-70B-Instruct and Reward models, as well as the Llama-3.3-Nemotron-70B model family.</p>
+
+<p>I also do some hobby projects in my personal capability outside of work - such as Humanoid Agents (Platform for simulation for human-like agents).</p>
+
+
+    </div>
+
+    
+      <div class="news">
+  <h2>Highlights</h2>
   
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+        <tr>
+          <th scope="row">Oct 2024</th>
+          <td>
+              
+                Built <a href="https://openreview.net/forum?id=MnfHxPP5gs">HelpSteer2-Preference</a> &amp; <a href="https://huggingface.co/collections/nvidia/llama-31-nemotron-70b-670e93cd366feea16abc13d8">Llama-3.1-Nemotron-70B models</a> w/ 1M+ downloads (ICLR 2025)
 
+              
+        
+          </td>
+        </tr>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+        <tr>
+          <th scope="row">Aug 2023</th>
+          <td>
+              
+                Architected <a href="https://aclanthology.org/2023.emnlp-demo.15/">Humanoid Agents Simulation Platform</a> (EMNLP 2023 System Demo) <a href="https://github.com/HumanoidAgents/HumanoidAgents"><img src="https://img.shields.io/github/stars/HumanoidAgents/HumanoidAgents" alt="GitHub stars" /></a>
+
+              
+        
+          </td>
+        </tr>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+        <tr>
+          <th scope="row">Jan 2017</th>
+          <td>
+              
+                Started an EdTech startup helping 500k+ Chemistry students on <a href="https://learnAh.org">learnAh.org</a> <img class="img-fluid z-depth-1 rounded" width="100" src="/assets/img/yc_sus.png" />
+
+              
+        
+          </td>
+        </tr>
+        
+      
+        
+      
+        
+      
+        
+        <tr>
+          <th scope="row">Aug 2015</th>
+          <td>
+              
+                Top 20 Global Finalist at <a href="https://www.cbsnews.com/news/google-science-fair-finalists-20-teens-wholl-change-the-world/">Google Science Fair</a> with my project on <a href="https://www.googblogs.com/spotlight-on-a-young-scientist-zhilin-wang/">Zinc-Air Batteries</a> 🔋  <img class="img-fluid z-depth-1 rounded" width="50" src="/assets/img/google_science_fair.png" />
+
+
+              
+        
+          </td>
+        </tr>
+        
+      
+        
+      
+        
+        <tr>
+          <th scope="row">Jan 2014</th>
+          <td>
+              
+                Sliver Medalist at <a href="https://chemistry.nus.edu.sg/events/cho/">Singapore Chemistry Olympiad (SChO)</a> and invited for <a href="https://chemistry.nus.edu.sg/events/cho/">IChO training team</a> 🥈
+
+              
+        
+          </td>
+        </tr>
+        
+      
+      </table>
+    </div>
+  
+</div>
+
+    
+
+    
+
+    
+    <div class="social">
+      <div class="contact-icons">
+        <a href="mailto:%77%61%6E%67%7A%68%69%6C%69%6E%31%32%33@%67%6D%61%69%6C.%63%6F%6D"><i class="fas fa-envelope"></i></a>
+
+<a href="https://scholar.google.com/citations?user=OmMgSQsAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+
+
+<a href="https://github.com/Zhilin123" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+<a href="https://www.linkedin.com/in/zhilin-wang" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+    
+  </article>
 
 </div>
 
-    <!--
-<h3><a class="post-title" href=""></a></h3>
-        <p class="post-meta"></p>
-        <p></p>
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/carrot_and_donkey.png">
-    -->
     </div>
 
     <!-- Footer -->
