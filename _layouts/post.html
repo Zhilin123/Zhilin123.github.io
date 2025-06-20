@@ -42,7 +42,7 @@ layout: default
   If you found this useful, please cite this as:
 
   {% capture citation_quote -%}
-  > {{ site.last_name }}, {{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} ({{ page.date | date: "%b %Y" }}). {{ page.title }}. {% if site.title != 'blank' %}{{ site.title }}. {% endif %}{{ site.url }}.
+  > {{ site.last_name }}, {{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} ({{ page.date | date: "%b %Y" }}). {{ page.title }}. {% if site.title != 'blank' %}{{ site.title }}. {% endif %} https://zhilin123.github.io.
   {%- endcapture %}
   {{ citation_quote | markdownify }}
 
@@ -56,7 +56,7 @@ layout: default
     {%- if site.title != 'blank' %}journal = { {{- site.title -}} },{% endif %}
     year    = { {{- page.date | date: "%Y" -}} },
     month   = { {{- page.date | date: "%b" -}} },
-    url     = { {{- site.url }}{{ page.url -}} }
+    url     = {https://zhilin123.github.io{{ page.url -}} }
   }
   ```
   {%- endcapture %}
