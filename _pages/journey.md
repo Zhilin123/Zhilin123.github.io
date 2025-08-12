@@ -2,9 +2,13 @@
 layout: page
 permalink: /journey
 title: my journey
-description: from Chemistry to Education to AI - sharing a little to support other inter-disciplinary researchers getting into AI
+description: from Chemistry to Education to AI 
 nav: true
 ---
+
+A talk describing the focus of my work in the past two years: motivations for RLHF Data Curation, experience collecting the HelpSteer (OG), HelpSteer2 and HelpSteer3 datasets as well as promising directions for further RLHF Data Curation.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3T96JKcQB0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 An interview where I share some of my inspirations and motivations on this journey! Feel free to listen as podcast.
 
